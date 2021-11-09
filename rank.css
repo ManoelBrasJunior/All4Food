@@ -1,0 +1,121 @@
+body{
+  padding-top: 5vh; 
+  background-image: linear-gradient(#faa46f,#ffd536);
+  background-size: cover;
+}
+#menu{
+  display: flex;
+  justify-content: space-between;
+}
+#logoall4{
+  margin-left: 120px;
+  z-index: 1;
+}
+#onda1{
+  position: absolute;
+  margin-top: -550px;
+  margin-left: -50px;
+  width: 1700px;
+  height: 1000px;
+  z-index: 0;
+}
+#corpo{
+  display: flex;
+
+}
+#título{
+  margin-top: 100px;
+  margin-right: 400px;
+  z-index: 1;
+}
+
+.empresa1{
+  display: flex;
+  justify-content: space-between;
+  position:relative;
+  margin-left: 50px;
+  margin-top: 245px;
+  margin-right: 1100px;
+  padding: 5px;
+  height: 30px;
+}
+.empresa{
+  display: flex;
+  justify-content: space-between;
+  position:relative;
+  margin-left: 50px;
+  margin-right: 1100px;
+  padding: 5px;
+  height: 30px;
+}
+.nota{
+  margin-left: 190px;
+}
+.logo{
+  margin-left: 120px;
+}
+.info{
+  display:flex;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 150px;
+}
+#t1{
+  margin-right: 80px;
+}
+.desc{
+  height: 1160px;
+  width: 500px;
+}
+.ranking{
+  width: 1200px;
+  height: 1160px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #ffd536;
+  position: relative;
+  margin-top: 150px;
+  margin-left: 0px;
+}
+.row-1{
+  background-color: white;
+  padding: 5px;
+  height: 30px;
+}
+.row-2{
+  padding: 5px;
+  height: 30px;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 70px;
+  background-color: #ffd536;
+  padding: 10px;
+}
+.icon{
+  height: 60px;
+  width: 45px;
+
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#icon-4{
+  padding: 13px;
+  height: 50px;
+  width: 60px;
+  margin: 0;
+}
+#icon-8{
+  height: 65px;
+  width: 65px;
+}
+#logoall4{
+  width: 173px;
+  height: 192px;
+  margin-left: 70px;
+  margin-top:30px;
+  position: absolute;
+}
