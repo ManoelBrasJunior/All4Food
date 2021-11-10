@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@800&display=swap');
 body{
   padding-top: 5vh; 
   background-image: linear-gradient(#faa46f,#ffd536);
   background-size: cover;
+  overflow-x:hidden 
 }
 #menu{
   display: flex;
   justify-content: space-between;
 }
-#logoall4{
+#logoall{
   margin-left: 120px;
   z-index: 1;
 }
@@ -21,17 +23,20 @@ body{
 }
 #corpo{
   display: flex;
-
+  margin-top: -100px;
 }
 #título{
+  position: relative;
   margin-top: 100px;
   margin-right: 400px;
   z-index: 1;
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 300%;
+  text-align: center;
 }
 
 .empresa1{
   display: flex;
-  justify-content: space-between;
   position:relative;
   margin-left: 50px;
   margin-top: 245px;
@@ -39,9 +44,12 @@ body{
   padding: 5px;
   height: 30px;
 }
+.pos{
+  font-size: 140%;
+  margin-top: -5px;
+}
 .empresa{
   display: flex;
-  justify-content: space-between;
   position:relative;
   margin-left: 50px;
   margin-right: 1100px;
@@ -49,23 +57,27 @@ body{
   height: 30px;
 }
 .nota{
-  margin-left: 190px;
+  margin-left: 350px;
+  position: absolute;
 }
 .logo{
-  margin-left: 120px;
+  margin-left: 115px;
+  justify-content:center;
 }
 .info{
   display:flex;
   position: absolute;
-  margin-left: 120px;
+  margin-left: 150px;
   margin-top: 150px;
 }
 #t1{
   margin-right: 80px;
 }
 .desc{
+  margin-top: 41px;
   height: 1160px;
   width: 500px;
+  font-family: 'Be Vietnam', sans-serif;
 }
 .ranking{
   width: 1200px;
@@ -76,13 +88,51 @@ body{
   position: relative;
   margin-top: 150px;
   margin-left: 0px;
+  font-family: 'Be Vietnam', sans-serif;
+}
+.nota-in{
+  margin-top: 0px;
+}
+.n1{
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.n2{
+  margin-left: 85px;
+  margin-top: 0px;
+}
+.n3{
+  margin-left: 95px;
+  margin-top: 0px;
+}
+.n4{
+  margin-left: 105px;
+  margin-top: 0px;
+}
+.n5{
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.n6{
+  margin-left: 95px;
+  margin-top: 0px;
+}
+.n7{
+  margin-left: 95px;
+  margin-top: 0px;
+}
+.n8{
+  margin-left: 70px;
+  margin-top: 0px;
 }
 .row-1{
+  display: flex;
   background-color: white;
   padding: 5px;
   height: 30px;
 }
 .row-2{
+  display: flex;
   padding: 5px;
   height: 30px;
 }
@@ -91,16 +141,25 @@ body{
   justify-content: space-between;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  height: 70px;
+  height: 113px;
   background-color: #ffd536;
   padding: 10px;
+}
+.icone{
+  display:block; 
+}
+.legenda{
+  margin-top: 5px;
+  text-align: center;
 }
 .icon{
   height: 60px;
   width: 45px;
-
-  margin-left: 10px;
+  margin-left: 15px;
   margin-top: 10px;
+}
+#icon-3{
+  margin-left: 25px;
 }
 #icon-4{
   padding: 13px;
@@ -108,9 +167,19 @@ body{
   width: 60px;
   margin: 0;
 }
+#icon-5{
+  margin-left: 10px;
+}
+#icon-6{
+  margin-left: 25px;
+}
+#icon-7{
+  margin-left: -1px;
+}
 #icon-8{
   height: 65px;
   width: 65px;
+  margin-left: -5px;
 }
 #logoall4{
   width: 173px;
