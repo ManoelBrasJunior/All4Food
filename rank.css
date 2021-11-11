@@ -36,10 +36,10 @@ body{
 #título{
   position: relative;
   margin-top: 100px;
-  margin-right: 400px;
+  margin-right: 20px;
   z-index: 1;
   font-family: 'Be Vietnam', sans-serif;
-  font-size: 300%;
+  font-size: 200%;
   text-align: center;
 }
 
