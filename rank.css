@@ -38,7 +38,8 @@ body{
 .empresa1{
   display: flex;
   position:relative;
-  margin-left: 50px;
+  justify-content: center;
+  margin-left: 150px;
   margin-top: 245px;
   margin-right: 1100px;
   padding: 5px;
@@ -47,17 +48,20 @@ body{
 .pos{
   font-size: 140%;
   margin-top: -5px;
+  margin-right: 150px;
+  position: absolute;
 }
 .empresa{
   display: flex;
   position:relative;
-  margin-left: 50px;
+  margin-left: 150px;
   margin-right: 1100px;
   padding: 5px;
   height: 30px;
+  justify-content: center;
 }
 .nota{
-  margin-left: 350px;
+  margin-left: 544px;
   position: absolute;
 }
 .logo{
@@ -81,9 +85,11 @@ body{
 }
 .ranking{
   width: 1200px;
-  height: 1160px;
+  height: 760px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   background-color: #ffd536;
   position: relative;
   margin-top: 150px;
@@ -152,14 +158,16 @@ body{
   margin-top: 5px;
   text-align: center;
 }
+button{
+  background-color: #ffd536;
+  position: relative;
+  border: none;
+}
 .icon{
   height: 60px;
   width: 45px;
-  margin-left: 15px;
+  margin-left: 0px;
   margin-top: 10px;
-}
-#icon-3{
-  margin-left: 25px;
 }
 #icon-4{
   padding: 13px;
@@ -167,19 +175,10 @@ body{
   width: 60px;
   margin: 0;
 }
-#icon-5{
-  margin-left: 10px;
-}
-#icon-6{
-  margin-left: 25px;
-}
-#icon-7{
-  margin-left: -1px;
-}
 #icon-8{
   height: 65px;
   width: 65px;
-  margin-left: -5px;
+  margin-left: 0px;
 }
 #logoall4{
   width: 173px;
@@ -187,4 +186,55 @@ body{
   margin-left: 70px;
   margin-top:30px;
   position: absolute;
+}
+.popup {
+  position: relative;
+  display: flex;
+  cursor:pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #fadf78;
+  color: #545454;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -150px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
 }
