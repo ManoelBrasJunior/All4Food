@@ -156,6 +156,12 @@ body{
   #título{
     margin-left: 30%;
   }
+  #Imagem4{
+    width: 2200px;
+  }
+  #onda2{
+    width: 2200px;
+  }
 }
 @media screen and (min-width: 1919px) {
   .ranking {
