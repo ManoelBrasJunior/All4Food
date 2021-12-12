@@ -7,9 +7,9 @@ body{
 }
 #menu{
   display: flex;
-  justify-content: space-between;
 }
 #logoall{
+  position: relative;
   margin-left: 120px;
   z-index: 1;
 }
@@ -35,127 +35,211 @@ body{
 }
 #título{
   position: relative;
-  margin-top: 100px;
-  margin-right: 20px;
+  margin-top: 12vh;
+  margin-left: 23%;
   z-index: 1;
   font-family: 'Be Vietnam', sans-serif;
   font-size: 200%;
   text-align: center;
 }
-
 .empresa1{
   display: flex;
   position:relative;
+  margin-top: 120px;
   justify-content: center;
-  margin-left: 150px;
-  margin-top: 245px;
-  margin-right: 1100px;
   padding: 5px;
   height: 30px;
 }
 .pos{
   font-size: 140%;
-  margin-top: -5px;
-  margin-right: 150px;
+  margin-top: 0px; 
+  margin-left: 10vw;
   position: absolute;
 }
 .empresa{
   display: flex;
   position:relative;
-  margin-left: 150px;
-  margin-right: 1100px;
+  margin-left: 0px;
   padding: 5px;
   height: 30px;
   justify-content: center;
 }
+.linha-1{
+  display: flex ;
+}
+.linha-2{
+  
+  display: flex;
+}
 .nota{
-  margin-left: 544px;
+  margin-left: 49vw;
   position: absolute;
 }
 .logo{
-  margin-left: 115px;
+  margin-left: 30vw;
   justify-content:center;
+  position: absolute;
+}
+.desc{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 11%;
+  height: 1160px;
+  width: 100%;
+  font-family: 'Be Vietnam', sans-serif;
 }
 .info{
   display:flex;
   position: absolute;
-  margin-left: 150px;
-  margin-top: 150px;
+  margin-top: 0px;
 }
 #t1{
-  margin-right: 80px;
+  position: absolute;
+  margin-left: 10vw;
 }
-.desc{
-  margin-top: 41px;
-  height: 1160px;
-  width: 500px;
-  font-family: 'Be Vietnam', sans-serif;
+#media{
+  position: absolute;
+  margin-left: 21.5vw ;
 }
+
 .ranking{
-  width: 1200px;
+  width: 900px;
   height: 760px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   background-color: #ffd536;
-  position: relative;
-  margin-top: 150px;
-  margin-left: 0px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 32%;
   font-family: 'Be Vietnam', sans-serif;
+}
+
+@media screen and (max-width: 1040px) {
+  .ranking {
+    width: 610px;
+  }
+  button{
+    width: 61px;
+  }
+  .legenda{
+    font-size: 70%;
+    justify-content: center;
+  }
+  .pos{
+    display: none;  
+  }
+  .logo{
+    margin-left: 20vw;
+  }
+  #logoall{
+    display: none;
+  }
+  #t1{
+    margin-left: 3vw;
+  }
+  #media{
+    margin-left: 19vw;
+  }
+}  
+@media screen and (min-width: 1040px) and (max-width:1280px) {
+  .ranking {
+    width: 800px;
+  }
+} 
+@media screen and (min-width: 1599px) {
+  .ranking {
+    width: 1060px;
+  }
+  #título{
+    margin-left: 30%;
+  }
+}
+@media screen and (min-width: 1919px) {
+  .ranking {
+    width: 1260px;
+  }
+  #t1{
+    margin-left: 11.5vw;
+  }
+  #media{
+    margin-left: 22vw;
+  }
+  #título{
+    margin-left: 34%;
+    font-size: 230%;
+  }
+
 }
 .nota-in{
   margin-top: 0px;
 }
 .n1{
-  margin-left: 20px;
+  display: block;
+  margin-left: 23px;
   margin-top: 0px;
-  position: absolute;
-  
+  position: relative;
+  width: 45px;
 }
 .n2{
-  margin-left: 120px;
+  display: block;
+  margin-left:0px;
   margin-top: 0px;
-  position: absolute;
+  position: relative;
+  width: 45px;
 }
 .n3{
-  margin-left: 225px;
+  display: block; 
   margin-top: 0px;
-  position: absolute;
+  position: relative;
+  width: 45px;
 }
 .n4{
-  margin-left: 350px;
+  display: block; 
+  margin-left: 22px;
   margin-top: 0px;
-  position: absolute;
+  position: relative;
+  width: 65px;
 }
 .n5{
-  margin-left: 455px;
+  display: block;
   margin-top: 0px;
-  position: absolute;
+  position: relative;
+  width: 45px;
 }
 .n6{
-  margin-left: 565px;
+  display: block;
   margin-top: 0px;
-  position: absolute;
+  position: relative;
+  width: 45px;
 }
 .n7{
-  margin-left: 670px;
+  display: block;
+  margin-left: 0px;
   margin-top: 0px;
-  position: absolute;
+  position: relative;
+  width: 45px;
 }
 .n8{
-  margin-left: 765px;
+  display: block;
   margin-top: 0px;
-  position: absolute;
+  position: relative;
+  width: 55px;
 }
 .row-1{
+  align-items: center;
   display: flex;
+  justify-content: space-between;
   background-color: white;
   padding: 5px;
   height: 30px;
 }
 .row-2{
   display: flex;
+  justify-content: space-between;
+  background-color: #ffd536;
   padding: 5px;
   height: 30px;
 }
@@ -164,7 +248,7 @@ body{
   justify-content: space-between;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  height: 113px;
+  height: 100px;
   background-color: #ffd536;
   padding: 10px;
 }
@@ -254,4 +338,4 @@ button{
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
-}
+}   
