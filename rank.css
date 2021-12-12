@@ -229,7 +229,6 @@ body{
   width: 55px;
 }
 .row-1{
-  align-items: center;
   display: flex;
   justify-content: space-between;
   background-color: white;
